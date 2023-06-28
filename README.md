@@ -11,3 +11,5 @@ políticas de agendamento e medindo o tempo necessário;
 - Você pode usar o gettimeofday() para medir o tempo "wallclock" e getrusage()
 para registrar o tempo do usuário e do sistema. Sua análise deve incluir wallclock,
 sistema e tempo do usuário em milissegundos.
+
+#TUTORIAL
