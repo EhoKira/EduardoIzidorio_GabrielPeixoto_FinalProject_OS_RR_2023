@@ -1,15 +1,7 @@
 # Scheduling Policy to the Linux Kernel
-Neste projeto nós iremos testar políticas de escalonamento e implementar uma nova no kernel do linux. 
-### Com base na descrição apresentada, o referido projeto deve ser apresentado com os seguintes itens:
-- Descrever o funcionamento de um escalonamento;
-- Criar um tutorial com exemplos de códigos para a criação de uma política de escalonamento
-no linux;
-- Apresente 4 políticas de escalonamento suportadas pelo kernel do linux;
-- Depois de implementar sua política de agendamento e depurá-la com cuidado, você avaliará
-seu desempenho executando combinações de processos intensivos de CPU em diferentes
-políticas de agendamento e medindo o tempo necessário;
-- Você pode usar o gettimeofday() para medir o tempo "wallclock" e getrusage()
-para registrar o tempo do usuário e do sistema. Sua análise deve incluir wallclock,
-sistema e tempo do usuário em milissegundos.
+Neste projeto nós iremos testar políticas de escalonamento e implementar uma nova no kernel do linux.
+
+### O que é o Escalonador do Linux?
+Antes de explicar o funcionamento do escalonador, é necessário conhecer sua definição. Em sistemas computacionais atuais, vários threads aguardam execução. Assim, o escalonador é um componente que ajuda a decidir qual processo será executado pela CPU em um determinado tempo. A maioria dos algoritmos de escalonamento é baseada em prioridades, sendo assim o escalonador do Linux desempenha um papel crucial na distribuição de recursos de CPU e E/S entre os processos em execução, visando oferecer um ambiente de execução equitativo e eficiente.
 
 # Tutorial
